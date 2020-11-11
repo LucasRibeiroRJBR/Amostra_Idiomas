@@ -5,240 +5,240 @@ from uteis.textos import *
 
 
 def bt_armeno():
-    path = Path(__file__).parent / "../../img/armenia.png"
-    bandeira_armeno = PhotoImage(file=path)
+    global bandeira_armeno
+    bandeira_armeno = PhotoImage(file="img/armenia.png")
     janela = JanelaIdioma("Armênio", armeno, bandeira_armeno).criar_janela()
 
 
 def bt_arabe():
-    path = Path(__file__).parent / "../../img/saudi-arabia.png"
-    bandeira_arabe = PhotoImage(file=path)
+    global bandeira_arabe
+    bandeira_arabe = PhotoImage(file="img/saudi-arabia.png")
     janela = JanelaIdioma("Árabe", arabe, bandeira_arabe).criar_janela()
 
 
 def bt_bulgado():
-    path = Path(__file__).parent / "../../img/bulgaria.png"
-    bandeira_bulgado = PhotoImage(file=path)
+    global bandeira_bulgado
+    bandeira_bulgado = PhotoImage(file="img/bulgaria.png")
     janela = JanelaIdioma("Búlgaro", bulgado, bandeira_bulgado).criar_janela()
 
 
 def bt_mandarim():
-    path = Path(__file__).parent / "../../img/china.png"
-    bandeira_mandarim = PhotoImage(file=path)
+    global bandeira_mandarim
+    bandeira_mandarim = PhotoImage(file="img/china.png")
     janela = JanelaIdioma("Mandarim", mandarim, bandeira_mandarim).criar_janela()
 
 
 def bt_taiwanes():
-    path = Path(__file__).parent / "../../img/taiwan.png"
-    bandeira_taiwanes = PhotoImage(file=path)
+    global bandeira_taiwanes
+    bandeira_taiwanes = PhotoImage(file="img/taiwan.png")
     janela = JanelaIdioma("Taiwanês", taiwanes, bandeira_taiwanes).criar_janela()
 
 
 def bt_croata():
-    path = Path(__file__).parent / "../../img/croatia.png"
-    bandeira_croata = PhotoImage(file=path)
+    global bandeira_croata
+    bandeira_croata = PhotoImage(file="img/croatia.png")
     janela = JanelaIdioma("Croata", croata, bandeira_croata).criar_janela()
 
 
 def bt_tcheco():
-    path = Path(__file__).parent / "../../img/czech.png"
-    bandeira_tcheco = PhotoImage(file=path)
+    global bandeira_tcheco
+    bandeira_tcheco = PhotoImage(file="img/czech.png")
     janela = JanelaIdioma("Tcheco", tcheco, bandeira_tcheco).criar_janela()
 
 
 def bt_dinamarques():
-    path = Path(__file__).parent / "../../img/denmark.png"
-    bandeira_dinamarques = PhotoImage(file=path)
+    global bandeira_dinamarques
+    bandeira_dinamarques = PhotoImage(file="img/denmark.png")
     janela = JanelaIdioma("Dinamarquês", dinamarques, bandeira_dinamarques).criar_janela()
 
 
 def bt_holandes():
-    path = Path(__file__).parent / "../../img/netherlands.png"
-    bandeira_holandes = PhotoImage(file=path)
+    global bandeira_holandes
+    bandeira_holandes = PhotoImage(file="img/netherlands.png")
     janela = JanelaIdioma("Holandês", holandes, bandeira_holandes).criar_janela()
 
 
 def bt_ingles():
-    path = Path(__file__).parent / "../../img/united-kingdom.png"
-    bandeira_ingles = PhotoImage(file=path)
+    global bandeira_ingles
+    bandeira_ingles = PhotoImage(file="img/united-kingdom.png")
     janela = JanelaIdioma("Inglês", ingles, bandeira_ingles).criar_janela()
 
 
 def bt_estoniano():
-    path = Path(__file__).parent / "../../img/estonia.png"
-    bandeira_estoniano = PhotoImage(file=path)
+    global bandeira_estoniano
+    bandeira_estoniano = PhotoImage(file="img/estonia.png")
     janela = JanelaIdioma("Estoniano", estoniano, bandeira_estoniano).criar_janela()
 
 
 def bt_filipino():
-    path = Path(__file__).parent / "../../img/philippines.png"
-    bandeira_filipino = PhotoImage(file=path)
+    global bandeira_filipino
+    bandeira_filipino = PhotoImage(file="img/philippines.png")
     janela = JanelaIdioma("Filipino", filipino, bandeira_filipino).criar_janela()
 
 
 def bt_finlandes():
-    path = Path(__file__).parent / "../../img/finland.png"
-    bandeira_finlandes = PhotoImage(file=path)
+    global bandeira_finlandes
+    bandeira_finlandes = PhotoImage(file="img/finland.png")
     janela = JanelaIdioma("Finlandês", finlandes, bandeira_finlandes).criar_janela()
 
 
 def bt_frances():
-    path = Path(__file__).parent / "../../img/france.png"
-    bandeira_frances = PhotoImage(file=path)
+    global bandeira_frances
+    bandeira_frances = PhotoImage(file="img/france.png")
     janela = JanelaIdioma("Francês", frances, bandeira_frances).criar_janela()
 
 
 def bt_georgiano():
-    path = Path(__file__).parent / "../../img/georgia.png"
-    bandeira_georgiano = PhotoImage(file=path)
+    global bandeira_georgiano
+    bandeira_georgiano = PhotoImage(file="img/georgia.png")
     janela = JanelaIdioma("Georgiano", georgiano, bandeira_georgiano).criar_janela()
 
 
 def bt_alemao():
-    path = Path(__file__).parent / "../../img/germany.png"
-    bandeira_alemao = PhotoImage(file=path)
+    global bandeira_alemao
+    bandeira_alemao = PhotoImage(file="img/germany.png")
     janela = JanelaIdioma("Alemão", alemao, bandeira_alemao).criar_janela()
 
 
 def bt_grego():
-    path = Path(__file__).parent / "../../img/greece.png"
-    bandeira_grego = PhotoImage(file=path)
+    global bandeira_grego
+    bandeira_grego = PhotoImage(file="img/greece.png")
     janela = JanelaIdioma("Grego", grego, bandeira_grego).criar_janela()
 
 
 def bt_hebraico():
-    path = Path(__file__).parent / "../../img/israel.png"
-    bandeira_hebraico = PhotoImage(file=path)
+    global bandeira_hebraico
+    bandeira_hebraico = PhotoImage(file="img/israel.png")
     janela = JanelaIdioma("Hebraico", hebraico, bandeira_hebraico).criar_janela()
 
 
 def bt_hindi():
-    path = Path(__file__).parent / "../../img/india.png"
-    bandeira_hindi = PhotoImage(file=path)
+    global bandeira_hindi
+    bandeira_hindi = PhotoImage(file="img/india.png")
     janela = JanelaIdioma("Hindi", hindi, bandeira_hindi).criar_janela()
 
 
 def bt_hungaro():
-    path = Path(__file__).parent / "../../img/hungary.png"
-    bandeira_hungaro = PhotoImage(file=path)
+    global bandeira_hungaro
+    bandeira_hungaro = PhotoImage(file="img/hungary.png")
     janela = JanelaIdioma("Húngaro", hungaro, bandeira_hungaro).criar_janela()
 
 
 def bt_indonesiano():
-    path = Path(__file__).parent / "../../img/indonesia.png"
-    bandeira_indonesiano = PhotoImage(file=path)
+    global bandeira_indonesiano
+    bandeira_indonesiano = PhotoImage(file="img/indonesia.png")
     janela = JanelaIdioma("Indonesiano", indonesiano, bandeira_indonesiano).criar_janela()
 
 
 def bt_italiano():
-    path = Path(__file__).parent / "../../img/italy.png"
-    bandeira_italiano = PhotoImage(file=path)
+    global bandeira_italiano
+    bandeira_italiano = PhotoImage(file="img/italy.png")
     janela = JanelaIdioma("Italiano", italiano, bandeira_italiano).criar_janela()
 
 
 def bt_letoniano():
-    path = Path(__file__).parent / "../../img/latvia.png"
-    bandeira_letoniano = PhotoImage(file=path)
+    global bandeira_letoniano
+    bandeira_letoniano = PhotoImage(file="img/latvia.png")
     janela = JanelaIdioma("Letoniano", letoniano, bandeira_letoniano).criar_janela()
 
 
 def bt_lituano():
-    path = Path(__file__).parent / "../../img/lithuania.png"
-    bandeira_lituano = PhotoImage(file=path)
+    global bandeira_lituano
+    bandeira_lituano = PhotoImage(file="img/lithuania.png")
     janela = JanelaIdioma("Lituano", lituano, bandeira_lituano).criar_janela()
 
 
 def bt_macedonio():
-    path = Path(__file__).parent / "../../img/republic-of-macedonia.png"
-    bandeira_macedonio = PhotoImage(file=path)
+    global bandeira_macedonio
+    bandeira_macedonio = PhotoImage(file="img/republic-of-macedonia.png")
     janela = JanelaIdioma("Macedônio", macedonio, bandeira_macedonio).criar_janela()
 
 
 def bt_malaio():
-    path = Path(__file__).parent / "../../img/malasya.png"
-    bandeira_malaio = PhotoImage(file=path)
+    global bandeira_malaio
+    bandeira_malaio = PhotoImage(file="img/malasya.png")
     janela = JanelaIdioma("Malaio", malaio, bandeira_malaio).criar_janela()
 
 
 def bt_noruegues():
-    path = Path(__file__).parent / "../../img/norway.png"
-    bandeira_noruegues = PhotoImage(file=path)
+    global bandeira_noruegues
+    bandeira_noruegues = PhotoImage(file="img/norway.png")
     janela = JanelaIdioma("Norueguês", noruegues, bandeira_noruegues).criar_janela()
 
 
 def bt_polones():
-    path = Path(__file__).parent / "../../img/poland.png"
-    bandeira_polones = PhotoImage(file=path)
+    global bandeira_polones
+    bandeira_polones = PhotoImage(file="img/poland.png")
     janela = JanelaIdioma("Polonês", polones, bandeira_polones).criar_janela()
 
 
 def bt_portugues():
-    path = Path(__file__).parent / "../../img/portugal.png"
-    bandeira_portugues = PhotoImage(file=path)
+    global bandeira_portugues
+    bandeira_portugues = PhotoImage(file="img/portugal.png")
     janela = JanelaIdioma("Português", portugues, bandeira_portugues).criar_janela()
 
 
 def bt_romeno():
-    path = Path(__file__).parent / "../../img/romania.png"
-    bandeira_romeno = PhotoImage(file=path)
+    global bandeira_romeno
+    bandeira_romeno = PhotoImage(file="img/romania.png")
     janela = JanelaIdioma("Romeno", romeno, bandeira_romeno).criar_janela()
 
 
 def bt_russo():
-    path = Path(__file__).parent / "../../img/russia.png"
-    bandeira_russo = PhotoImage(file=path)
+    global bandeira_russo
+    bandeira_russo = PhotoImage(file="img/russia.png")
     janela = JanelaIdioma("Russo", russo, bandeira_russo).criar_janela()
 
 
 def bt_servio():
-    path = Path(__file__).parent / "../../img/serbia.png"
-    bandeira_servio = PhotoImage(file=path)
+    global bandeira_servio
+    bandeira_servio = PhotoImage(file="img/serbia.png")
     janela = JanelaIdioma("Sérvio", servio, bandeira_servio).criar_janela()
 
 
 def bt_eslovaco():
-    path = Path(__file__).parent / "../../img/slovakia.png"
-    bandeira_eslovaco = PhotoImage(file=path)
+    global bandeira_eslovaco
+    bandeira_eslovaco = PhotoImage(file="img/slovakia.png")
     janela = JanelaIdioma("Eslovaco", eslovaco, bandeira_eslovaco).criar_janela()
 
 
 def bt_esloveno():
-    path = Path(__file__).parent / "../../img/slovenia.png"
-    bandeira_esloveno = PhotoImage(file=path)
+    global bandeira_esloveno
+    bandeira_esloveno = PhotoImage(file="img/slovenia.png")
     janela = JanelaIdioma("Esloveno", esloveno, bandeira_esloveno).criar_janela()
 
 
 def bt_espanhol():
-    path = Path(__file__).parent / "../../img/spain.png"
-    bandeira_espanhol = PhotoImage(file=path)
+    global bandeira_espanhol
+    bandeira_espanhol = PhotoImage(file="img/spain.png")
     janela = JanelaIdioma("Espanhol", espanhol, bandeira_espanhol).criar_janela()
 
 
 def bt_sueco():
-    path = Path(__file__).parent / "../../img/sweden.png"
-    bandeira_sueco = PhotoImage(file=path)
+    global bandeira_sueco
+    bandeira_sueco = PhotoImage(file="img/sweden.png")
     janela = JanelaIdioma("Sueco", sueco, bandeira_sueco).criar_janela()
 
 
 def bt_tailandes():
-    path = Path(__file__).parent / "../../img/thailand.png"
-    bandeira_tailandes = PhotoImage(file=path)
+    global bandeira_tailandes
+    bandeira_tailandes = PhotoImage(file="img/thailand.png")
     janela = JanelaIdioma("Tailandês", tailandes, bandeira_tailandes).criar_janela()
 
 
 def bt_turco():
-    path = Path(__file__).parent / "../../img/turkey.png"
-    bandeira_turco = PhotoImage(file=path)
+    global bandeira_turco
+    bandeira_turco = PhotoImage(file="img/turkey.png")
     janela = JanelaIdioma("Turco", turco, bandeira_turco).criar_janela()
 
 
 def bt_ucraniano():
-    path = Path(__file__).parent / "../../img/ukraine.png"
-    bandeira_ucraniano = PhotoImage(file=path)
+    global bandeira_ucraniano
+    bandeira_ucraniano = PhotoImage(file="img/ukraine.png")
     janela = JanelaIdioma("Ucraniano", ucraniano, bandeira_ucraniano).criar_janela()
 
 
 def bt_vietnamita():
-    path = Path(__file__).parent / "../../img/vietnam.png"
-    bandeira_vietnamita = PhotoImage(file=path)
+    global bandeira_vietnamita
+    bandeira_vietnamita = PhotoImage(file="img/vietnam.png")
     janela = JanelaIdioma("Vietnamita", vietnamita, bandeira_vietnamita).criar_janela()
