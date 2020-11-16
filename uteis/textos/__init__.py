@@ -46,7 +46,7 @@ hindi = "ऐसा कोई नहीं है जो खुद दर्द �
 
 hungaro = "Nincs ki a fájdalmat önmagáért \nszeretné, ki törekedne rá és \nbirtokolná, csupán a fájdalomért..."
 
-indonesiano = "Tidak ada yang menyukai kepedihan, \nyang mencarinya dan ingin \nmerasakannya, semata karena pedih\n rasanya..."
+indonesio = "Tidak ada yang menyukai kepedihan, \nyang mencarinya dan ingin \nmerasakannya, semata karena pedih\n rasanya..."
 
 italiano = "Non c’è nessuno a cui piaccia il \ndolore in sé, che lo ricerchi e \nche voglia riceverlo, semplicemente\n perché è dolore..."
 

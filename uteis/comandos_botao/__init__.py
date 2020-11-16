@@ -124,10 +124,10 @@ def bt_hungaro():
     janela = JanelaIdioma("Húngaro", hungaro, bandeira_hungaro).criar_janela()
 
 
-def bt_indonesiano():
-    global bandeira_indonesiano
-    bandeira_indonesiano = PhotoImage(file="img/indonesia.png")
-    janela = JanelaIdioma("Indonesiano", indonesiano, bandeira_indonesiano).criar_janela()
+def bt_indonesio():
+    global bandeira_indonesio
+    bandeira_indonesio = PhotoImage(file="img/indonesia.png")
+    janela = JanelaIdioma("Indonésio", indonesio, bandeira_indonesio).criar_janela()
 
 
 def bt_italiano():

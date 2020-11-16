@@ -270,18 +270,18 @@ class JanelaIdioma():
             letreiro_hungaro = Label(root_hungaro, text=self.texto, font=("Arial", 20, "bold"))
             letreiro_hungaro.grid(row=1, column=0)
 
-        if self.idioma == "Indonesiano":
-            self.texto = indonesiano
+        if self.idioma == "Indonésio":
+            self.texto = indonesio
 
-            root_indonesiano = Toplevel()
-            root_indonesiano.title("Indonesiano")
+            root_indonesio = Toplevel()
+            root_indonesio.title("Indonésio")
 
-            bandeira = Label(root_indonesiano, image=self.bandeira)
+            bandeira = Label(root_indonesio, image=self.bandeira)
             bandeira.grid(row=0, column=0)
             bandeira.image = self.bandeira
 
-            letreiro_indonesiano = Label(root_indonesiano, text=self.texto, font=("Arial", 20, "bold"))
-            letreiro_indonesiano.grid(row=1, column=0)
+            letreiro_indonesio = Label(root_indonesio, text=self.texto, font=("Arial", 20, "bold"))
+            letreiro_indonesio.grid(row=1, column=0)
 
         if self.idioma == "Italiano":
             self.texto = italiano
